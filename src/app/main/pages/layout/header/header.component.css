@@ -1,0 +1,16 @@
+/* styles.scss or app-header.component.scss */
+.animate-charcter {
+    background: linear-gradient(90deg, #149ef9, #63c5fc, #149ef9);
+    background-size: 200% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+    100% {
+        background-position: -200% center;
+    }
+}

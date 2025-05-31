@@ -1,0 +1,29 @@
+<!-- layout.component.html -->
+<div class="h-screen w-screen overflow-hidden flex">
+    <mat-drawer-container class="w-full h-full">
+
+        <!-- Optional sidebar drawer -->
+        <!-- <mat-drawer mode="side" opened class="w-64 bg-gray-800 text-white">Sidebar content</mat-drawer> -->
+
+        <mat-drawer-content class="w-full h-full">
+            <div class="flex flex-col h-full w-full">
+
+                <!-- Header -->
+                <header class="h-16 shadow-md bg-white flex items-center justify-center px-4 border-b">
+                    <app-header></app-header>
+                </header>
+
+                <!-- Main Content -->
+                <main class="flex-1 bg-gray-100 overflow-y-auto p-6">
+                    <router-outlet></router-outlet>
+                </main>
+
+                <!-- Footer -->
+                <footer class="h-10 bg-blue-900 text-white flex items-center justify-center text-sm border-t">
+                    <app-footer></app-footer>
+                </footer>
+
+            </div>
+        </mat-drawer-content>
+    </mat-drawer-container>
+</div>
