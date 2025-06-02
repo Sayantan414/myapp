@@ -3,6 +3,7 @@ import { NgModule } from "@angular/core";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { RouterLink } from "@angular/router";
 import { MaterialModule } from "../../Angular-material-Element/material.module";
+import { HttpClientModule } from "@angular/common/http";
 
 
 
@@ -15,8 +16,8 @@ import { MaterialModule } from "../../Angular-material-Element/material.module";
     NgFor,
     FormsModule,
     ReactiveFormsModule,
-    DatePipe
-
+    DatePipe,
+    HttpClientModule
 
   ],
   exports: [
@@ -28,6 +29,8 @@ import { MaterialModule } from "../../Angular-material-Element/material.module";
     FormsModule,
     ReactiveFormsModule,
     DatePipe
+    ,
+    HttpClientModule
   ]
 })
 export class ProjectCommonModule {

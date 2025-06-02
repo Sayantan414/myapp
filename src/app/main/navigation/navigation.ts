@@ -1,7 +1,7 @@
 export const NAV_ITEMS = [
     {
         id: 'home',
-        title: 'Home',
+        title: 'Dashboard',
         type: 'item',
         url: '/home',
         icon: 'home',
@@ -10,7 +10,7 @@ export const NAV_ITEMS = [
     },
     {
         id: 'cob',
-        title: 'COB 10',
+        title: 'COB-10',
         type: 'item',
         url: '/cob',
         icon: 'info',
@@ -18,7 +18,7 @@ export const NAV_ITEMS = [
     },
     {
         id: 'bf',
-        title: 'BF 5',
+        title: 'BF-5',
         type: 'item',
         url: '/bf',
         icon: 'contact_mail',
